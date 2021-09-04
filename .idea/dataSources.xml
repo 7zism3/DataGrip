@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@localhost" uuid="b82984ed-c5df-4920-a314-5bf464220c4b">
+    <data-source source="LOCAL" name="mySQL - Azure" uuid="c9fb99d2-7f08-4f23-9f53-fffaf7d22fc9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://db-thuynv070897.mysql.database.azure.com:3306/db_cc_abc?useSSL=true&amp;requireSSL=false</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost" uuid="f072cd05-d276-4c27-b623-476d29ed4ede">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="MySQL - Azure" uuid="517f98ce-0f28-4356-9f76-271ba1e69710">
-      <driver-ref>9ac6282c-c5c8-4753-9e83-fcfa4eb5b539</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://db-thuynv070897.mysql.database.azure.com:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost/</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
